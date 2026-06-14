@@ -16,7 +16,6 @@ C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.AssemblyInfoInputs.cache
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.AssemblyInfo.cs
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.csproj.CoreCompileInputs.cache
-C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
@@ -34,3 +33,13 @@ C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.genruntimeconfig.cache
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\ref\UnitConversion.API.dll
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.sourcelink.json
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\UnitConversion.Application.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\UnitConversion.Domain.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\UnitConversion.Infrastructure.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\UnitConversion.Application.pdb
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\UnitConversion.Infrastructure.pdb
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\UnitConversion.Domain.pdb
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.MvcApplicationPartsAssemblyInfo.cs

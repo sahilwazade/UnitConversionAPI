@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\UnitConversion.Application\UnitConversion.Application.csproj" />
+    <ProjectReference Include="..\UnitConversion.Infrastructure\UnitConversion.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

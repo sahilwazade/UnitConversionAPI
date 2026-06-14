@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "UnitConversion.API.Controllers.ConversionController",
+    "Method": "Convert",
+    "RelativePath": "api/Conversion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UnitConversion.Application.DTOs.ConversionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UnitConversion.Application.DTOs.ConversionResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
