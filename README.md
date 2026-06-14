@@ -86,7 +86,7 @@ Ensure the following are installed:
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sahilwazade/UnitConversionAPI.git
 ```
 
 ### Navigate to the Solution Directory
