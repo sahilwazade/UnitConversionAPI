@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "UnitConversion.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UnitConversion.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnitConversion.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnitConversion.Application.dll": {}
+        }
+      },
+      "UnitConversion.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UnitConversion.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnitConversion.Domain.dll": {}
+        }
+      },
+      "UnitConversion.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UnitConversion.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnitConversion.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnitConversion.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -439,11 +475,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "UnitConversion.Application/1.0.0": {
+      "type": "project",
+      "path": "../UnitConversion.Application/UnitConversion.Application.csproj",
+      "msbuildProject": "../UnitConversion.Application/UnitConversion.Application.csproj"
+    },
+    "UnitConversion.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UnitConversion.Domain/UnitConversion.Domain.csproj",
+      "msbuildProject": "../UnitConversion.Domain/UnitConversion.Domain.csproj"
+    },
+    "UnitConversion.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../UnitConversion.Infrastructure/UnitConversion.Infrastructure.csproj",
+      "msbuildProject": "../UnitConversion.Infrastructure/UnitConversion.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Swashbuckle.AspNetCore >= 6.6.2"
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "UnitConversion.Application >= 1.0.0",
+      "UnitConversion.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -478,7 +531,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dell\\source\\repos\\UnitConversion.API\\UnitConversion.Application\\UnitConversion.Application.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\UnitConversion.API\\UnitConversion.Application\\UnitConversion.Application.csproj"
+            },
+            "C:\\Users\\Dell\\source\\repos\\UnitConversion.API\\UnitConversion.Infrastructure\\UnitConversion.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\UnitConversion.API\\UnitConversion.Infrastructure\\UnitConversion.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

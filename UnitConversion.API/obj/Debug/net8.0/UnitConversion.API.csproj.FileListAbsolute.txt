@@ -33,3 +33,4 @@ C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.pdb
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.genruntimeconfig.cache
 C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\ref\UnitConversion.API.dll
+C:\Users\Dell\source\repos\UnitConversion.API\UnitConversion.API\obj\Debug\net8.0\UnitConversion.API.sourcelink.json
